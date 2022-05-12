@@ -3,7 +3,7 @@ import pytest
 import time
 
 
-#@pytest.mark.skip(reason="Test too slow")
+@pytest.mark.skip(reason="Test too slow")
 def test_wiki_search():
     time.sleep(2)
     assert 'Winning Time: The Rise of the Lakers Dynasty' in wiki_search()
