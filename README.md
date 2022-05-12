@@ -19,6 +19,7 @@ source .venv/bin/activate
 * Profiling tests: `coverage run -m pytest -vv --durations=10 --durations-min=1.0`
 * Mark: https://docs.pytest.org/en/7.1.x/how-to/mark.html#mark
 * Fixtures: https://docs.pytest.org/en/7.1.x/how-to/fixtures.html
+* More Fixtures: https://paiml.com/docs/home/books/testing-in-python/chapter07-pytest-fixtures/
 
 ### Distributed Testing
 
