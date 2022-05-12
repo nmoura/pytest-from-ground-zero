@@ -1,6 +1,10 @@
 #!/usr/bin/env python
-from mylib.fruity import random_fruit
+import fire
+
+# from mylib.fruity import random_fruit
+from mylib.wiki import wiki_search
 
 
-if __name__ == '__main__':
-    print(random_fruit())
+if __name__ == "__main__":
+    fire.Fire(wiki_search)
+#    print(random_fruit())
