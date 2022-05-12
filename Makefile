@@ -3,7 +3,7 @@ install:
 				pip install -r requirements.txt
 
 test:
-		python -m pytest -vv test_hello.py
+		coverage run -m pytest -vv tests/test_fruity.py
 
 format:
 		black *.py
