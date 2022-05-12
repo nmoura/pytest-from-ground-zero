@@ -3,7 +3,8 @@ install:
 				pip install -r requirements.txt
 
 test:
-		coverage run -m pytest -vv testing/
+		coverage run -m pytest -vv testing/ &&\
+				coverage report
 
 format:
 		black *.py
